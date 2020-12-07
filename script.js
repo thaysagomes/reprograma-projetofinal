@@ -431,12 +431,12 @@ const createCard = (devs) => {
     const techs = devs[i].techs.map(tech => `<span class="cards__tag">${tech}</span>`)
     const tags = techs.join('');
 
-    const social = devs[i].social.map(social => `<a class="media" href="${social.url}" target="_blank"><img src="${social.icon}"></a>`);
+    const social = devs[i].social.map(social => `<a class="media" href="${social.url}" target="_blank"><img src="${social.icon}" alt="Rede social"></a>`);
     const medias = social.join('');
 
     card.innerHTML = 
     `<div class="wrapper">
-    <img class="cards__img" src="${devs[i].img}">
+    <img class="cards__img" src="${devs[i].img}" alt="${devs[i].name}">
     <p class="cards__name">${devs[i].name}</p>
     ${tags}
     <div class="cards__media">
