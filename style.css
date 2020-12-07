@@ -107,7 +107,7 @@ a {
 
 .cards {
     display: grid;
-    grid-template-columns: 470px 470px 470px;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 4rem 0 2rem 2rem;
 }
 
@@ -206,6 +206,7 @@ footer {
     .cards {
         display: grid;
         grid-template-columns: 1fr;
+       
     }
 
     .author {
