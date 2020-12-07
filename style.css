@@ -18,7 +18,7 @@ a {
 .menu {
     display: flex;
     list-style-type: none;
-    padding: 2rem 0 0 2rem;
+    margin: 2rem 0 0 2rem;
     font-weight: 500;
 }
 
@@ -107,8 +107,9 @@ a {
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 4rem 0 2rem 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 4rem;
+    margin: 4rem 0 4rem 2rem;
 }
 
 .cards__item {
