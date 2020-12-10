@@ -264,6 +264,10 @@ const devs = [
         techs: ['Javascript', 'Carreira'],
         social: [
             {
+                url: 'https://www.twitch.tv/defrontcomaline',
+                icon: 'assets/twitch.svg'
+            },
+            {
                 url: 'https://github.com/alinebastos',
                 icon: 'assets/github.svg'
             },
